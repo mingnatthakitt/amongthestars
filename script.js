@@ -111,12 +111,12 @@ function drawText() {
     }
     if(frameNumber > 1000 && frameNumber < 1250){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("to meet, and to be able to spend the rest of this life together with you", canvas.width/2, canvas.height/2);
+        context.fillText("to meet, and to be able to spend the rest of my life together with you", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     if(frameNumber >= 1250 && frameNumber < 1500){
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
-        context.fillText("to meet, and to be able to spend the rest of this life together with you", canvas.width/2, canvas.height/2);
+        context.fillText("to meet, and to be able to spend the rest of my life together with you", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
@@ -167,9 +167,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["Meimei, I love you so much, more than", "all the time and space in the universe can contain,","more than every atoms in the universe, more than all the bad times ahead of us,","more than the obstacle than might come between us"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["Meimei, I love you so much, more than","every atoms in the universe, more than all the bad times ahead of us,","more than the obstacle that might come between us"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("Meimei, I love you so much, more than all the time and space in the universe can contain, more than every atoms in the universe, more than all the bad times ahead of us, more than the obstacle than might come between us", canvas.width/2, canvas.height/2);
+            context.fillText("Meimei, I love you so much, more than every atoms in the universe, more than all the bad times ahead of us, more than the obstacle that might come between us", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
