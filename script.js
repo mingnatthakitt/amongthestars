@@ -55,7 +55,7 @@ function drawTextWithLineBreaks(lines, x, y, fontSize, lineHeight) {
 }
 
 function drawText() {
-    var fontSize = Math.min(20, window.innerWidth / 30); // Adjust font size based on screen width
+    var fontSize = Math.min(24, window.innerWidth / 30); // Adjust font size based on screen width
     var lineHeight = 8;
 
     context.font = fontSize + "px Comic Sans MS";
