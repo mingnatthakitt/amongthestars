@@ -167,9 +167,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["Meimei, I love you so much, more than","every atoms in the universe, more than all the bad times ahead of us,","more than the obstacle that might come between us"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["Meimei, I love you so much, more than","every atom in the universe, and more than all the bad times and obstacle ahead of us"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("Meimei, I love you so much, more than every atoms in the universe, more than all the bad times ahead of us, more than the obstacle that might come between us", canvas.width/2, canvas.height/2);
+            context.fillText("Meimei, I love you so much, more than every atom in the universe, more than all the bad times and obstacle ahead of us", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
