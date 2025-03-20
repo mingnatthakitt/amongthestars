@@ -1,6 +1,6 @@
 var canvas = document.getElementById("starfield");
-canvas.width = window.outerWidth;
-canvas.height = window.outerHeight;
+canvas.width = window.InnerWidth;
+canvas.height = window.InnerHeight;
 
 var context = canvas.getContext("2d");
 var stars = 500;
@@ -55,7 +55,7 @@ function drawTextWithLineBreaks(lines, x, y, fontSize, lineHeight) {
 }
 
 function drawText() {
-    var fontSize = Math.min(24, window.innerWidth / 30); // Adjust font size based on screen width
+    var fontSize = Math.min(25, window.innerWidth / 30); // Adjust font size based on screen width
     var lineHeight = 8;
 
     context.font = fontSize + "px Comic Sans MS";
