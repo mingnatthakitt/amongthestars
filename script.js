@@ -1,6 +1,6 @@
 var canvas = document.getElementById("starfield");
-canvas.width = window.screen.width;
-canvas.height = window.screen.height;
+canvas.width = window.outerWidth;
+canvas.height = window.outerHeight;
 
 var context = canvas.getContext("2d");
 var stars = 500;
